@@ -1,0 +1,12 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    generate-ddi: true
+database:
+  datasource:
+    url: jdbc:h2:file:./data_test/demo.h2;CIPHER=AES
+    driverClassName: org.h2.Driver
+    username: sah2tool
+    password: DBH2Toolv1! H2Toolv1$!
